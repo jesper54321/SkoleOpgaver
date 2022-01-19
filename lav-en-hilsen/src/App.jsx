@@ -11,7 +11,9 @@ function App() {
 				id=""
 				onChange={(e) => setName(e.target.value)}
 			/>
-			<p>Hej med dig {name}</p>
+			<p>
+				Hej med dig, <b>{name}</b>
+			</p>
 		</div>
 	);
 }

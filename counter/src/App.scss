@@ -1,0 +1,14 @@
+body {
+	padding: 2rem;
+}
+
+button {
+	padding: 2rem;
+	font-size: 3rem;
+	&:hover {
+		cursor: pointer;
+	}
+	b {
+		font-weight: 900;
+	}
+}
