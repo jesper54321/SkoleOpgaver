@@ -16,7 +16,8 @@ function App() {
 
 	return (
 	<div className="flex">
-		<form action="" method="post" onSubmit={e=>{e.preventDefault(); setFormResults(new FormData(e.target))}}>
+		<form action="" method="post" onSubmit={e=>{e.preventDefault(); console.dir(e
+			); setFormResults(new FormData(e.target))}}>
 			<label htmlFor="name">Fulde navn: </label>
 			<input type="text" name="name" id="name" /><br/>
 
