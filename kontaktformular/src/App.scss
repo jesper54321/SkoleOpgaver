@@ -11,8 +11,27 @@
     gap: 5rem;
     padding: 2rem;
     justify-content: space-between;
+    .showOff{
+        border-left: 1px solid black;
+    }
     >*{
+        width: 100%;
+        >input,textarea,fieldset{
+            margin: 1rem;
+        }
         >*{
+            padding: 1rem;
+            >input[type=radio]{
+                margin: 1rem;
+            }
+            >p{
+                min-width: 130px;
+                display: inline-block;
+                &:first-child{
+                    text-align: right;
+                    padding-right: 1rem;
+                }
+            }
             width: 100%;
         }
     }
