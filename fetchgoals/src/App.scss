@@ -1,0 +1,13 @@
+*, *::after, *::before {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+p{
+    white-space: pre-wrap;
+}
+
+body{
+  padding: .3rem .4rem;
+}
